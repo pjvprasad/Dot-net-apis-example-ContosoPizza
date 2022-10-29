@@ -1,4 +1,11 @@
-Following Tutorial - https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/?WT.mc_id=dotnet-35129-website
-
--- Check version
-    dotnet --list-sdks
+-   Tutorials
+    -   [dotnet](https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/?WT.mc_id=dotnet-35129-website)
+    -   [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+-   Check version
+    -   dotnet --list-sdks
+-   Create an api
+    -   dotnet new webapi -f net6.0
+        -   [Program.cs](./Program.cs) is the entry point
+        -   [Controllers/](./Controllers/WeatherForecastController.cs) has all the controllers mapped to respective apis
+        -   [ContosoPizza.cproj](./ContosoPizza.csproj) holds the meta data
+        -   [Properties/launchSettings.json](./Properties/launchSettings.json) Defines where and how project is hosted
