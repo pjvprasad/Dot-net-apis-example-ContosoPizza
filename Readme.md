@@ -9,3 +9,17 @@
         -   [Controllers/](./Controllers/WeatherForecastController.cs) has all the controllers mapped to respective apis
         -   [ContosoPizza.cproj](./ContosoPizza.csproj) holds the meta data
         -   [Properties/launchSettings.json](./Properties/launchSettings.json) Defines where and how project is hosted
+-   Build
+    -   dotnet run (to view, visit https://localhost:{PORT}/weatherforecast)
+        -   Locates the project file at the current directory.
+        -   Retrieves and installs any required project dependencies for this project.
+        -   Compiles the project code.
+        -   Hosts the web API with the ASP.NET Core Kestrel web server at both an HTTP and HTTPS endpoint.
+    -   dotnet dev-certs https --trust
+        -   Enforces to trust the installed certificate
+-   Test
+    -   dotnet tool install -g Microsoft.dotnet-httprepl
+        -   http repl (read evaluate print loop)
+        -   _-g_ for global installation
+        -   installs the .NET HTTP REPL command-line tool
+        -   check the [tutorial](https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/3-exercise-create-web-api) for details on how to use **httprepl** tool
