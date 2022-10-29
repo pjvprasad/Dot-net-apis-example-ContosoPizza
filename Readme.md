@@ -25,10 +25,14 @@
         -   check the following for details on how to use **httprepl** tool
             -   [Test the web API - from point 3](https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/3-exercise-create-web-api)
             -   [Passing parameter to get req - from point 7](https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/6-exercise-add-controller)
+            -   [crud requests - from point 6](https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/8-exercise-implement-crud)
 -   [Understanding controllers](https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/4-aspnet-controllers)
 -   Creating api for pizzas
     -   Create [pizza model](./Models/Pizza.cs)
     -   Create [pizza service](./Services/PizzaService.cs)
     -   Create [pizza controller](./Controllers/PizzaController.cs)
     -   `dotnet build` : Builds the project
--   Get by id api in [pizza controller](./Controllers/PizzaController.cs)
+    -   Get by id api in [pizza controller](./Controllers/PizzaController.cs)
+    -   [Understanding CRUD actions in ASP.NET Core](https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/7-crud)
+    -   Add CRUD apis to [pizza controller](./Controllers/PizzaController.cs)
+- [summary and more tutorials](https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/9-summary)
