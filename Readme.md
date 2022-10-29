@@ -22,10 +22,13 @@
         -   http repl (read evaluate print loop)
         -   _-g_ for global installation
         -   installs the .NET HTTP REPL command-line tool
-        -   check the [tutorial](https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/3-exercise-create-web-api) for details on how to use **httprepl** tool
+        -   check the following for details on how to use **httprepl** tool
+            -   [Test the web API - from point 3](https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/3-exercise-create-web-api)
+            -   [Passing parameter to get req - from point 7](https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/6-exercise-add-controller)
 -   [Understanding controllers](https://learn.microsoft.com/en-in/training/modules/build-web-api-aspnet-core/4-aspnet-controllers)
 -   Creating api for pizzas
     -   Create [pizza model](./Models/Pizza.cs)
     -   Create [pizza service](./Services/PizzaService.cs)
     -   Create [pizza controller](./Controllers/PizzaController.cs)
     -   `dotnet build` : Builds the project
+-   Get by id api in [pizza controller](./Controllers/PizzaController.cs)
